@@ -66,7 +66,9 @@ class ExcludeCountries extends Plugin
     private function settingToCountryCodes(Setting $setting) {
         $codes = [];
         foreach ($setting->getValue() as $value) {
-            $codes[] = $value["languageCode"];
+            if (!empty($value["languageCode"])) {
+                $codes[] = $value["languageCode"];
+            }
         }
         return $codes;
     }
