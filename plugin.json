@@ -4,17 +4,7 @@
   "version": "0.1.1",
   "theme": false,
   "require": {
-    "name": "ExcludeCountries",
-    "description": "TODO",
-    "version": "0.1.0",
-    "theme": false,
-    "require": {
-      "piwik": ">=3.10.0,<4.0.0-b1",
-      "matomo": ">=3.10.0,<4.0.0-b1"
-    },
-    "homepage": "",
-    "license": "GPL v3+",
-    "keywords": []
+    "piwik": ">=3.10.0,<4.0.0-b1"
   },
   "authors": [
     {
