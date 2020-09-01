@@ -1,7 +1,7 @@
 {
   "name": "ExcludeCountries",
   "description": "Exclude or include visitors from selected countries",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "theme": false,
   "require": {
     "name": "ExcludeCountries",
@@ -9,7 +9,8 @@
     "version": "0.1.0",
     "theme": false,
     "require": {
-      "piwik": ">=3.10.0,<4.0.0-b1"
+      "piwik": ">=3.10.0,<4.0.0-b1",
+      "matomo": ">=3.10.0,<4.0.0-b1"
     },
     "homepage": "",
     "license": "GPL v3+",
