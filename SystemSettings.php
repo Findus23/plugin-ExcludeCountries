@@ -11,14 +11,7 @@ namespace Piwik\Plugins\ExcludeCountries;
 use Piwik\Settings\FieldConfig;
 use Piwik\Settings\Setting;
 
-/**
- * Defines Settings for ExcludeCountries.
- *
- * Usage like this:
- * $settings = new SystemSettings();
- * $settings->metric->getValue();
- * $settings->description->getValue();
- */
+
 class SystemSettings extends \Piwik\Settings\Plugin\SystemSettings
 {
     /** @var Setting */
