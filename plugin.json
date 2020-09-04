@@ -1,7 +1,7 @@
 {
   "name": "ExcludeCountries",
   "description": "Exclude or include visitors from selected countries",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "theme": false,
   "require": {
     "piwik": ">=3.10.0,<4.0.0-b1"

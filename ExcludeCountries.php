@@ -45,7 +45,10 @@ class ExcludeCountries extends Plugin
 
         $location = $provider->getLocation(["ip" => $request->getIp()]);
         $countryCode = strtolower($location[LocationProvider::COUNTRY_CODE_KEY]);
-
+        if (!$location || empty($countryCode)) {
+            $logger->debug("ExcludeCountries could not detect a location");
+            return;
+        }
         $excludeBool = $settings->excludeBool->getValue();
 
         if ($excludeBool) {
