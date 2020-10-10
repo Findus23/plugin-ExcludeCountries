@@ -1,5 +1,9 @@
 ## Changelog
 
+### 0.2.0
+
+Matomo 4 compatibility
+
 ### 0.1.3
 
 fix bug causing no countries to be selected
